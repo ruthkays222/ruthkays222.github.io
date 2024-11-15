@@ -75,6 +75,24 @@ nav {
         border-radius: 5px;
         overflow: hidden;
     }
+    .hob li{
+        margin-top: 3px;
+        height: 50px;
+        width: 250px;
+        background-color:#0078d7 ;
+        margin-bottom: 3px;
+        border-radius: 2px;
+       
+        color:white ;
+        font-weight: 400;
+
+    }
+    .hob ul li{
+        display: inline;
+        
+
+    }
+    
     aside p{
         font-size: 5px;
         color: #00bcd4;
@@ -159,7 +177,7 @@ nav {
         border-radius: 2px;
         margin-left: 40%;
         color:white ;
-        font-weight: 400
+        font-weight: 400;
     }
     
     footer{
