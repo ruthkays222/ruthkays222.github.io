@@ -8,5 +8,97 @@
 </head>
 <body>
     <h1>NAKAZIBA RUTH KAKAIRE-BLIS STUDENT AT COCIS</h1>
+    <div class="headers">
+        <nav>
+            <div class="logo">
+                <img src="photo.jpg" alt="Logo">
+            </div>
+            <ul class="links">
+                <a href="#about"><li>About Me</li></a>
+                <a href="#schools"><li>Schools</li></a>
+                <a href="#hobbies"><li>Hobbies</li></a>
+                <a href="#workexp"><li>Work Experience</li></a>
+            </ul>
+            <div class="her">
+                <div class="her"></div>
+                <div class="her"></div>
+                <div class="her"></div>
+            </div>
+        </nav>
+    </div>
+    <section class="about" id="about" >
+     <aside style="display: flex; margin-right: 20px; ">
+        <img src="fullphoto.jpg" alt=""> 
+        <P style="margin-top: 60px; margin-left: 25%; font-weight: bold; font-size: 15px;  color: #00bcd4;"> <span style=" font-weight: 600;color: rgb(221, 16, 16);  font-size: 35px; font-size: 20px; margin-left: 10px;">ABOUT ME</span><br>Am Nakaziba Ruth a student at makerere university<BR> doing a bacherlors degree <br> in library and informatuion science<P>
+     </aside>
+    </section>
+    <!-- schools section -->
+    <section class="schools" id="schools">
+        <h1 style="color: red; font-weight: 600; font-size: 20px">  SCHOOLS ATTENDED</h1>
+        <div class="container">
+            <div class="card">
+                <div class="year">2005</div>
+                <div class="school">Little Angels Infant Primary School</div>
+            </div>
+            <div class="card">
+                <div class="year">2010</div>
+                <div class="school">Pic Hill Primary School</div>
+            </div>
+            <div class="card">
+                <div class="year">2015</div>
+                <div class="school">St. Joseph's Girls SS Nsambya</div>
+            </div>
+            <div class="card">
+                <div class="year">2018</div>
+                <div class="school">St. Mary's College Lugazi</div>
+            </div>
+            <div class="card">
+                <div class="year">2021</div>
+                <div class="school">Makerere University</div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="hobbies" id="hobbies">
+        <h1 style="color: red; font-weight: 900; font-size: 20px;">  HOBBIES</h1>
+        <div class="hob">
+            <ul>
+                <li>singing</li>
+                <li>playing</li>
+                <li>reading novels</li>
+                <li>research</li></ul>
+            
+           </ul>
+   
+
+        </div>
+
+    </section>
+    
+    <section class="workexp" id="workexp">
+        <h1 style="color: red; font-weight: 600; font-size: 20px;">WORK EXPERIENCE</h1>
+
+        <p  style="color: aqua; font-size: 20px;">2023</p>
+        <p>Did internship for a period of two months inthe parliamentary registry and stalk taking in the library
+            for a period of two weeks contract in the field of library and information science</p>
+            <p  style="color: aqua; font-size: 20px;">2024</p>
+        <p>Worked at the parliamentary registry and stalk taking in the library
+            for a period of two months contract in the field of library and information science</p>
+
+    </section>
+    <footer style="color: aliceblue; background-color: black; margin-bottom: 0px; width: 100%; height: 30px;">
+        <P>@Copyright NAKAZIBA RUTH KAKAIRE-BLIS STUDENT AT COCIS</P>
+    </footer>
+
+
+    <script>
+        const hamburger = document.querySelector('.her');
+        const navLinks = document.querySelector('.links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
